@@ -16,7 +16,7 @@
 				<key>caret</key>
 				<string>#9F9F9F</string>
 				<key>foreground</key>
-				<string>#DEDEDE</string>
+				<string>#DDDDDD</string>
 				<key>invisibles</key>
 				<string>#343434</string>
 				<key>lineHighlight</key>
@@ -62,9 +62,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DDBB88</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Variable, String Link, Regular Expression, Tag Name</string>
 			<key>scope</key>
-			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
+			<string>variable.parameter, support.other.variable, string.other.link, string.regexp, entity.name.tag, meta.tag, declaration.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -75,7 +86,7 @@
 			<key>name</key>
 			<string>Number, Constant, Tag Attribute, Embedded</string>
 			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, punctuation.section.embedded, keyword.other.unit</string>
+			<string>constant.numeric, constant.language, support.constant, constant.character, punctuation.section.embedded, keyword.other.unit, entity.other.attribute-name, constant.id</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
