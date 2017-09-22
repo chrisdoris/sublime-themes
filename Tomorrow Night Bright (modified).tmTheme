@@ -63,21 +63,6 @@
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
-<<<<<<< HEAD
-			<key>scope</key>
-			<string>variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DDBB88</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Variable, String Link, Regular Expression, Tag Name</string>
-			<key>scope</key>
-			<string>variable.parameter, support.other.variable, string.other.link, string.regexp, entity.name.tag, meta.tag, declaration.tag</string>
-=======
 			<key>scope</key>
 			<string>variable</string>
 			<key>settings</key>
@@ -91,7 +76,6 @@
 			<string>Parameter, String Link, Regular Expression, Tag Name</string>
 			<key>scope</key>
 			<string>variable.parameter, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
->>>>>>> 2196317b3f6f3919a65eae35590c867a0f229beb
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
