@@ -1,0 +1,127 @@
+{
+  "name": "Tomorrow Night Bright (modified new)",
+  "globals": {
+    "background": "#000000",
+    "foreground": "#DDDDDD",
+    "caret": "#9F9F9F",
+    "line_highlight": "#424242",
+    "selection": "#888888",
+  },
+  "variables": {
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "#808080",
+    },
+    {
+      "name": "Comment documentation",
+      "scope": "comment.block.documentation, comment.block.documentation.text",
+      "foreground": "#B0B0B0",
+    },
+    {
+      "name": "Comment documentation highlights",
+      "scope": "comment.block.documentation.keyword, comment.block.documentation.variable, comment.block.documentation.magma, comment.block.documentation.text.raw, comment.block.documentation.text.italic, comment.block.documentation.text.bold",
+      "foreground": "#DDDDDD",
+    },
+    {
+      "name": "Comment documentation keywords",
+      "scope": "comment.block.documentation.keyword",
+      "font_style": "bold",
+    },
+    {
+      "name": "Comment documentation text",
+      "scope": "comment.block.documentation.text",
+      "font_style": "italic",
+    },
+    {
+      "name": "Foreground",
+      "scope": "keyword.operator.class, constant.other, source.php.embedded.line",
+      "foreground": "#EEEEEE",
+    },
+    {
+      "name": "Variable",
+      "scope": "variable, markup.raw",
+      "foreground": "#DDCC99",
+    },
+    {
+      "name": "Parameter, String Link, Regular Expression, Tag Name",
+      "scope": "variable.parameter, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag",
+      "foreground": "#D54E53",
+    },
+    {
+      "name": "Number, Constant, Tag Attribute, Embedded",
+      "scope": "constant.numeric, constant.language, support.constant, constant.character, punctuation.section.embedded, keyword.other.unit, entity.other.attribute-name, constant.id",
+      "foreground": "#E78C45",
+    },
+    {
+      "name": "Class, Support",
+      "scope": "entity.name.class, entity.name.type.class, support.type, support.class, entity.name.label.latex, constant.other.reference.latex",
+      "foreground": "#E7C547",
+    },
+    {
+      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "scope": "string, constant.other.symbol, entity.other.inherited-class, markup.heading, punctuation.definition.verb, entity.name.section",
+      "foreground": "#B9CA4A",
+    },
+    {
+      "name": "Operator, Misc",
+      "scope": "keyword.operator, constant.other.color",
+      "foreground": "#70C0B1",
+    },
+    {
+      "name": "Function, Special Method, Block Level",
+      "scope": "entity.name.function, support.function, keyword.other.special-method, meta.block-level",
+      "foreground": "#7AA6DA",
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": "keyword, storage, storage.type, entity.name.tag.css",
+      "foreground": "#C397D8",
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "background": "#DF5F5F",
+      "foreground": "#CED2CF",
+    },
+    // {
+    //   "name": "Separator",
+    //   "scope": "meta.separator",
+    //   "background": "#82A3BF",
+    //   "foreground": "#CED2CF",
+    // },
+    {
+      "name": "Depracated",
+      "scope": "invalid.deprecated",
+      "background": "#B798BF",
+      "foreground": "#CED2CF",
+    },
+    {
+      "name": "Prompt",
+      "scope": "interactive.prompt",
+      "foreground": "#AADDFF",
+    },
+    {
+      "name": "Output",
+      "scope": "interactive.output",
+      "foreground": "#888888",
+    },
+    {
+      "name": "Error output",
+      "scope": "interactive.output.error",
+      "foreground": "#FF4444",
+    },
+    {
+      "name": "Italics",
+      "scope": "markup.italic",
+      "font_style": "italic",
+    },
+    {
+      "name": "Section",
+      "scope": "entity.name.section, comment.block.documentation.text.section",
+      "font_style": "bold",
+    }
+  ]
+}
